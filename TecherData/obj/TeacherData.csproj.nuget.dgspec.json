@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "A:\\SDA\\Phase 1 Agile\\C# Practical Projects\\TecherData\\TecherData.csproj": {}
+    "A:\\SDA\\Phase 1 Agile\\C# Practical Projects\\TecherData\\TeacherData.csproj": {}
   },
   "projects": {
-    "A:\\SDA\\Phase 1 Agile\\C# Practical Projects\\TecherData\\TecherData.csproj": {
+    "A:\\SDA\\Phase 1 Agile\\C# Practical Projects\\TecherData\\TeacherData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\SDA\\Phase 1 Agile\\C# Practical Projects\\TecherData\\TecherData.csproj",
-        "projectName": "TecherData",
-        "projectPath": "A:\\SDA\\Phase 1 Agile\\C# Practical Projects\\TecherData\\TecherData.csproj",
+        "projectUniqueName": "A:\\SDA\\Phase 1 Agile\\C# Practical Projects\\TecherData\\TeacherData.csproj",
+        "projectName": "TeacherData",
+        "projectPath": "A:\\SDA\\Phase 1 Agile\\C# Practical Projects\\TecherData\\TeacherData.csproj",
         "packagesPath": "C:\\Users\\نايف الحربي\\.nuget\\packages\\",
         "outputPath": "A:\\SDA\\Phase 1 Agile\\C# Practical Projects\\TecherData\\obj\\",
         "projectStyle": "PackageReference",

@@ -3,3 +3,19 @@ A:\SDA\Phase 1 Agile\Practical\TecherData\obj\Debug\net5.0\TecherData.GeneratedM
 A:\SDA\Phase 1 Agile\Practical\TecherData\obj\Debug\net5.0\TecherData.AssemblyInfoInputs.cache
 A:\SDA\Phase 1 Agile\Practical\TecherData\obj\Debug\net5.0\TecherData.AssemblyInfo.cs
 A:\SDA\Phase 1 Agile\Practical\TecherData\obj\Debug\net5.0\TecherData.csproj.CoreCompileInputs.cache
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TecherData.exe
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TecherData.deps.json
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TecherData.runtimeconfig.json
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TecherData.runtimeconfig.dev.json
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TecherData.dll
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\ref\TecherData.dll
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TecherData.pdb
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TecherData.csprojAssemblyReference.cache
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TecherData.GeneratedMSBuildEditorConfig.editorconfig
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TecherData.AssemblyInfoInputs.cache
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TecherData.AssemblyInfo.cs
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TecherData.csproj.CoreCompileInputs.cache
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TecherData.dll
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\ref\TecherData.dll
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TecherData.pdb
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TecherData.genruntimeconfig.cache

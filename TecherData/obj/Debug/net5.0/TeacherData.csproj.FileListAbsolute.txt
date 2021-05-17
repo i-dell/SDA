@@ -1,0 +1,16 @@
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TeacherData.exe
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TeacherData.deps.json
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TeacherData.runtimeconfig.json
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TeacherData.runtimeconfig.dev.json
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TeacherData.dll
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\ref\TeacherData.dll
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\bin\Debug\net5.0\TeacherData.pdb
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TeacherData.csprojAssemblyReference.cache
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TeacherData.GeneratedMSBuildEditorConfig.editorconfig
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TeacherData.AssemblyInfoInputs.cache
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TeacherData.AssemblyInfo.cs
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TeacherData.csproj.CoreCompileInputs.cache
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TeacherData.dll
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\ref\TeacherData.dll
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TeacherData.pdb
+A:\SDA\Phase 1 Agile\C# Practical Projects\TecherData\obj\Debug\net5.0\TeacherData.genruntimeconfig.cache
