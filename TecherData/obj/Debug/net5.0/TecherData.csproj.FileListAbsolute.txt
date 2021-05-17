@@ -1,0 +1,5 @@
+A:\SDA\Phase 1 Agile\Practical\TecherData\obj\Debug\net5.0\TecherData.csprojAssemblyReference.cache
+A:\SDA\Phase 1 Agile\Practical\TecherData\obj\Debug\net5.0\TecherData.GeneratedMSBuildEditorConfig.editorconfig
+A:\SDA\Phase 1 Agile\Practical\TecherData\obj\Debug\net5.0\TecherData.AssemblyInfoInputs.cache
+A:\SDA\Phase 1 Agile\Practical\TecherData\obj\Debug\net5.0\TecherData.AssemblyInfo.cs
+A:\SDA\Phase 1 Agile\Practical\TecherData\obj\Debug\net5.0\TecherData.csproj.CoreCompileInputs.cache

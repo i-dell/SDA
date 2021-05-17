@@ -1,0 +1,16 @@
+A:\SDA\Phase 1 Agile\Practical\StudentData\bin\Debug\net5.0\StudentData.exe
+A:\SDA\Phase 1 Agile\Practical\StudentData\bin\Debug\net5.0\StudentData.deps.json
+A:\SDA\Phase 1 Agile\Practical\StudentData\bin\Debug\net5.0\StudentData.runtimeconfig.json
+A:\SDA\Phase 1 Agile\Practical\StudentData\bin\Debug\net5.0\StudentData.runtimeconfig.dev.json
+A:\SDA\Phase 1 Agile\Practical\StudentData\bin\Debug\net5.0\StudentData.dll
+A:\SDA\Phase 1 Agile\Practical\StudentData\bin\Debug\net5.0\ref\StudentData.dll
+A:\SDA\Phase 1 Agile\Practical\StudentData\bin\Debug\net5.0\StudentData.pdb
+A:\SDA\Phase 1 Agile\Practical\StudentData\obj\Debug\net5.0\StudentData.csprojAssemblyReference.cache
+A:\SDA\Phase 1 Agile\Practical\StudentData\obj\Debug\net5.0\StudentData.GeneratedMSBuildEditorConfig.editorconfig
+A:\SDA\Phase 1 Agile\Practical\StudentData\obj\Debug\net5.0\StudentData.AssemblyInfoInputs.cache
+A:\SDA\Phase 1 Agile\Practical\StudentData\obj\Debug\net5.0\StudentData.AssemblyInfo.cs
+A:\SDA\Phase 1 Agile\Practical\StudentData\obj\Debug\net5.0\StudentData.csproj.CoreCompileInputs.cache
+A:\SDA\Phase 1 Agile\Practical\StudentData\obj\Debug\net5.0\StudentData.dll
+A:\SDA\Phase 1 Agile\Practical\StudentData\obj\Debug\net5.0\ref\StudentData.dll
+A:\SDA\Phase 1 Agile\Practical\StudentData\obj\Debug\net5.0\StudentData.pdb
+A:\SDA\Phase 1 Agile\Practical\StudentData\obj\Debug\net5.0\StudentData.genruntimeconfig.cache
