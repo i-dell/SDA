@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adil</title>
+    <link rel="stylesheet" href="./kitchenstore.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script>
+    function stickyMenu() {
+        var sticky=document.getElementById('sticky');
+        if (window.pageYOffset > 220) {
+            sticky.classList.add('sticky');
+        }
+        else {
+            sticky.classList.remove('sticky');
+        }
+    }
+    window.onscroll = function() {
+        stickyMenu();
+    }
+</script>
+</head>
+
+<body >
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<div class="parallax">
+    <div class="page-title"> Kitchen Store </div>
+</div>
+
+
+<center>
+    <br>
+        <h2 style="color: rgb(20, 68, 90);" > You have to login!</h2>
+   
+    <form action="index.html" method="" >
+        
+    <lable for="Username">Username: </lable>
+    <input type="text" name="Username" placeholder="Enter Username"  required/>
+    <br>
+    <lable for="password">Password : </lable>
+    <input type="password" name="password" placeholder="Enter Password"  required/>
+
+    <br/> <br/>
+
+    <label for="userType"></label>User Type: </label>
+
+    <input type="radio" name="userType" id="newUser" />
+    <label for="newUser"> New User</label>
+
+    <input type="radio" name="userType" id="regdUser" />
+    <label for="regdUser"> Registered User</label>
+    
+    <br/><br/>
+
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+
+<br><br/>
+    </form>
+</center>
+
+
+<div class="parallaxl">
+    <div class="footer">
+        <div class="logo">
+            <div class="logo">
+                <img src="images/adil.png" class="logo"/>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <div class="copyrights">
+                <i class="far f-copyright fa-1x"></i>2021 By Adil Alammari </div>
+      </div>
+
+</body>
+</html>

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adil</title>
+    <link rel="stylesheet" href="./kitchenstore.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script>
+    function stickyMenu() {
+        var sticky=document.getElementById('sticky');
+        if (window.pageYOffset > 220) {
+            sticky.classList.add('sticky');
+        }
+        else {
+            sticky.classList.remove('sticky');
+        }
+    }
+    window.onscroll = function() {
+        stickyMenu();
+    }
+</script>
+</head>
+<body>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+
+    <div class="parallax">
+        <div class="page-title"> Kitchen Store </div>
+    </div>
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="#" class="a-menu"><li>Home</li></a>
+            <a href="#fruits" class="a-menu"><li>Fruits</li></a>
+            <a href="#vegetables" class="a-menu"><li>Vegetables</li></a>
+            <a href="#meat" class="a-menu"><li>Meat</li></a>
+            <a href="#bakery" class="a-menu"><li>Bakery</li></a>
+            <a href="#deals" class="a-menu"><li>Deals</li></a>
+            <a href="cart" class="a-menu" ><li class="fa fa-shopping-cart" aria-hidden="true"> </li></a>
+        </ul>
+        
+        <div class="search-box">
+            <form>
+                <input type="text" placeholder="Search..." name="search" 
+                class="'search-input"/>
+                <button type="Submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+            </form>
+        </div>
+    </div>
+    <!--Home Page Begins-->
+    <div class="container">
+        <a href="#vegetables">
+            <div class="categories">
+                <img src="images/Veg/vegetables.jpg" class="item-image"/>
+                <div class="image-title">Vegetables</div>
+            </div>
+        </a>
+        <a href="#fruits">
+            <div class="categories">
+                <img src="images/Fruits/fruits.jpg" class="item-image"/>
+                <div class="image-title">Fruits</div>
+            </div>
+        </a>
+        <a href="#meat">
+            <div class="categories">
+                <img src="images/meat/meat.jpg" class="item-image"/>
+                <div class="image-title">Meat & Seafood</div>
+            </div>
+        </a>
+        <a href="#bakery">
+            <div class="categories">
+               <img src="images/Bakery/Bakery.jpg" class="item-image"/>
+               <div class="image-title">Bakery</div>
+            </div>
+         </a>
+    </div>
+    <div class="container">
+            <a href="#deals">
+            <div class="categories">
+                <img src="images/deals.jpg" class="item-image"/>
+                <div class="image-title">Deals</div>
+            </div>
+        </a>
+    </div>
+</div>
+
+    <!--Veg Begins Here-->
+    <div class="deals-container" id="vegetables">
+        <div class="parallax">
+            <div class="title">VEGETABLES</div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Veg/tomato.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Organic Tomato </b><br/>
+                <div class="item-select">
+                Price $2.99/250 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+                <option>1000 G</option>
+            </select><br/><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Veg/spinach.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Organic Spinach </b><br/>
+                <div class="item-select">
+                Price $3/250 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+                <option>1000 G</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Veg/carrots.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Organic Carrots </b><br/>
+                <div class="item-select">
+                Price $2.99/250 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+                <option>1000 G</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Veg/potato.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Organic Potato </b><br/>
+                <div class="item-select">
+                    Price $1/250 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+                <option>1000 G</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+</div>
+
+    <!--Veg Ends Here-->
+
+     <!--Fruits Begins Here-->
+     <div class="deals-container" id="fruits">
+        <div class="parallax">
+            <div class="title">FRUITS</div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Fruits/apples.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Organic Apples </b><br/>
+                <div class="item-select">
+                Price $4.59/500 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>500 G</option>
+                <option>1 K</option>
+                <option>1.5 K</option>
+                <option>2 K</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Fruits/banana.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Organic Banana </b><br/>
+                <div class="item-select">
+                Price $2.49/500 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>500 G</option>
+                <option>1 K</option>
+                <option>1.5 K</option>
+                <option>2 K</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Fruits/kiwi.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Organic Kiwi </b><br/>
+                <div class="item-select">
+                Price $4/500 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>500 G</option>
+                <option>1 K</option>
+                <option>1.5 K</option>
+                <option>2 K</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Fruits/watermelon.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Organic Watermelon </b><br/>
+                <div class="item-select">
+                    Price $4.86/500 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>500 G</option>
+                <option>1 K</option>
+                <option>1.5 K</option>
+                <option>2 K</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+</div>
+
+    <!--Fruits Ends Here-->
+
+     <!--Meat Begins Here-->
+     <div class="deals-container" id="meat">
+        <div class="parallax">
+            <div class="title">MEAT & SEAFOOD</div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/meat/beef.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> DAILY AND FRESH </b><br/>
+                <div class="item-select">
+                Price $4.59/250 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+                <option>1000 G</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/meat/Chicken.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> DAILY AND FRESH </b><br/>
+                <div class="item-select">
+                Price $2.49/250 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+                <option>1000 G</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/meat/fish.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> DAILY AND FRESH </b><br/>
+                <div class="item-select">
+                Price $4/250 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+                <option>1000 G</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/meat/lamb.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> DAILY AND FRESH </b><br/>
+                <div class="item-select">
+                    Price $4.86/250 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+                <option>1000 G</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+</div>
+<!--Meat Ends Here-->
+    <!--Bakery Begins Here-->
+    <div class="deals-container" id="bakery">
+        <div class="parallax">
+            <div class="title">BAKERY</div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Bakery/whitebread.jpg" class="item-image-size"/>
+            </div>           
+            <div class="description">
+                <b> Daily and Pure </b><br/>
+                <div class="item-select">
+                Price $4.59/300 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>300 G</option>
+                <option>450 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+            </select><br/>
+            <br>
+            <br><button class="buynow-btn">Buy Now</button></br>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Bakery/croissant.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Daily and Pure </b><br/>
+                <div class="item-select">
+                Price $2.49/300 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>300 G</option>
+                <option>450 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Bakery/breadsticks.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Daily and Pure</b><br/>
+                <div class="item-select">
+                Price $2/300 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>300 G</option>
+                <option>450 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="images/Bakery/bagels.jpg" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b> Daily and Pure </b><br/>
+                <div class="item-select">
+                    Price $3.86/250 G
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>300 G</option>
+                <option>450 G</option>
+                <option>500 G</option>
+                <option>700 G</option>
+            </select><br/>
+            <br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+</div>
+    <!--Bakery Ends Here-->
+    <!--Deals Begins Here-->
+    <div class="deals-container" id="deals">
+        <div class="parallax">
+            <div class="title">DEALS</div>
+        </div>
+        <div class="deal">
+            Save 10% on min-purchase of $149 on vegetables<br/>
+            <button class="coupon-btn">Add Coupon</button>
+        </div>
+        <div class="deal">
+            Save 15% on min-purchase of $179 on fruits<br/>
+            <button class="coupon-btn">Add Coupon</button>
+        </div>
+        <div class="deal">
+            Save 10% on min-purchase of $130 on meat/seafood<br/>
+            <button class="coupon-btn">Add Coupon</button>
+        </div>
+        <div class="deal">
+            Save 9% on min-purchase of $100 on bakery<br/>
+            <button class="coupon-btn">Add Coupon</button>
+        </div>
+    </div>
+    <!--Deals Ends Here-->
+ <!--Home Page Ends-->
+
+ <!--Footer starts-->
+    <div class="parallaxl">
+        <div class="footer">
+            <div class="quick-links">
+                <div>Location</div>
+                <ul>
+                    <li><a href="" class="a-links">Saudi Arabia</a></li>
+                    <li><a href="" class="a-links">Riyadh</a></li>
+                    <li><a href="" class="a-links">RUH</a></li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <div>Our Clients</div>
+                <ul>
+                    <li><a href="" class="a-links">MCIT</a></li>
+                    <li><a href="" class="a-links">Saudi Digital Academy </a></li>
+                    <li><a href="" class="a-links">Simplilearn</a></li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <div>Quick Links</div>
+                <ul>
+                    <li><a href="" class="a-links">Contact us</a></li>
+                    <li><a href="" class="a-links">FAQ</a></li>
+                    <li><a href="" class="a-links">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyrights">
+        <i class="far f-copyright fa-1x"></i>2021 By Adil Alammari
+    </div>
+
+
+ <!--Footer ends-->
+</body>
+</html>
